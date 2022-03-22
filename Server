@@ -1,7 +1,7 @@
 <?php
 $to=$_GET['email'];
 
-$headers="PixseApp:"."example@gmail.com";
+$headers="From:"."example@gmail.com";
 $code=rand(1000,9999);
 $message=$code;
 $subject="کد تایید";```
