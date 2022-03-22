@@ -1,11 +1,1 @@
-<?php
-$to=$_GET['email'];
-
-$headers="From:"."example@gmail.com";
-$code=rand(1000,9999);
-$message=$code;
-$subject="کد تایید";```
-
-
-mail($to, $subject, $message, $headers);
-echo'{"code":"'.$code.'"}';
+{"code":"4844"}
